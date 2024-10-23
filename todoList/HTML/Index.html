@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input Element</title>
+  </head>
+  <body>
+    <form>
+      <label>Registration Form</label>
+      <br />
+      <input type="text" name="firstname" placeholder="firstname" />
+      <input type="text" name="lastname" placeholder="lastname" />
+      <br/>
+      <label>Please select gender</label
+      ><select name="gender" id="gender">
+        <option value="Male" selected>Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br/>
+      <label>Do you want to agree to all terms and sevices?     <input type="checkbox" ></form><label>Yes</label></label> 
+      <input type="button" value="Register" name="Register"/>
+    </form>
+<hr/>
+    <table border="black">
+      <caption>
+        Student Information
+      </caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th>City</th>
+        <th>House</th>
+      </tr>
+
+      <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <hr/>
+
+    <form action="/server">
+        <label>Rate us our of 5</label>
+        <br/>
+        <input type="radio" name="rate" value="1">1</form>
+        <input type="radio" name="rate" value="2">2</form> 
+        <br/> 
+        <input type="radio" name="rate" value="3">3</form><br/>     
+        <input type="radio" name="rate" value="4">4</form><br/>        
+        <input type="radio" name="rate" value="5">5</form><br/>
+        <input type="button" for="rate" value="submit">
+    </form>
+  </body>
+</html>
