@@ -1,0 +1,73 @@
+* {
+  margin: auto;
+  padding: 0;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.container {
+  position: relative;
+  width: 50vw;
+  margin-left: 10%;
+}
+
+.featureWrap {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+}
+
+input,
+button {
+  height: 48px;
+  padding: 13px 16px;
+}
+
+.contact {
+  color: grey;
+  text-decoration: none;
+}
+.contact:hover {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
+
+li a:hover {
+  color: white;
+}
+
+.featureImg {
+  text-align: center;
+}
+
+li a:active {
+  color: white;
+}
+
+.footer {
+  height: 30vh;
+  margin-top: 10%;
+}
+
+.teamScope {
+  height: 10vh;
+}
